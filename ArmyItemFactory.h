@@ -12,7 +12,7 @@ namespace ArmyControl
 	class IArmyItemMaker
 	{
 	public:
-		virtual ArmyControl::ArmyItem* Create(std::wstring _type, std::wstring _name) const = 0;
+		virtual ArmyItem* Create(std::wstring _type, std::wstring _name) const = 0;
 		virtual ~IArmyItemMaker() {};
 	};
 
